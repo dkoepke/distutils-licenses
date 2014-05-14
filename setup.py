@@ -12,10 +12,11 @@ setup(
     long_description=open('README.md').read(),
 
     url='http://github.com/dkoepke/distutils-licenses',
+    packages=['distutils_licenses'],
 
     entry_points={
         'distutils.commands': [
-            'licenses = licenses:LicenseCommand',
+            'licenses = distutils_licenses.command:LicenseCommand',
         ],
     }
 )
