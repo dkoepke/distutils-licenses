@@ -9,7 +9,7 @@ setup(
     license='MIT',
 
     description='adds a command to setup.py to list licenses of packages',
-    long_description=open('README.md').read(),
+    long_description=open('README.txt').read(),
 
     url='http://github.com/dkoepke/distutils-licenses',
     packages=['distutils_licenses'],
